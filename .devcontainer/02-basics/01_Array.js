@@ -23,12 +23,16 @@ const newArray = myArray.join()
 //console.log(newArray);
 //console.log(typeof newArray); 
 
-console.log("A", myArray);
+//console.log("A", myArray);
 
 const myNew1 = myArray.slice(0,3)
-console.log(myNew1);
-console.log("B", myArray);
+//console.log(myNew1);
+//console.log("B", myArray);
 
 const myNew2 = myArray.splice(0,3)
-console.log(myNew2);
-console.log("C", myArray);
+//console.log(myNew2);
+//console.log("C", myArray);
+
+//---------------------------------------------------------------
+
+ 
