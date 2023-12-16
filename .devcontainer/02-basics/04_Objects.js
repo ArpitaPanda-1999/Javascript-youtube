@@ -27,9 +27,18 @@ const obj4 = {5:'a', 6:'y'}
 const obj3 = {...obj1, ...obj2, ...obj4}
 //console.log(obj3);
 
-console.log(tinderApp1);
-console.log(Object.keys(tinderApp1));
-console.log(Object.values(tinderApp1));
-console.log (Object.entries(tinderApp1));
-console.log(tinderApp1.hasOwnProperty('isLoggedIn'));
-console.log(tinderApp1.hasOwnProperty('isLogged'));
+//console.log(tinderApp1);
+//console.log(Object.keys(tinderApp1));
+//console.log(Object.values(tinderApp1));
+//console.log (Object.entries(tinderApp1));
+//console.log(tinderApp1.hasOwnProperty('isLoggedIn'));
+//console.log(tinderApp1.hasOwnProperty('isLogged'));
+
+const course = {
+    coursename : "js in hindi",
+    fee : "999",
+    courseInstructor : "Arpita" 
+}
+
+const {courseInstructor:instructor} = course //object destructure
+console.log(instructor);
