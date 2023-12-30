@@ -3,7 +3,7 @@ const user = {
     price: 999,
     
     welcomeMessage: function () {
-        console.log(`${this.username} welcome to website`);
+        //console.log(`${this.username} welcome to website`);
         console.log(this);
     }
 }
@@ -35,4 +35,13 @@ chai2()
 const addTwo = (num1, num2) => {
     return num1 + num2
 }
-console.log(addTwo(3));
+console.log(addTwo(3,5));
+
+const addTwo1 = (num1, num2) => num1 + num2
+console.log(addTwo1(3,5));
+
+const addTwo2 = (num1, num2) => (num1 + num2)
+console.log(addTwo2(3,5));
+
+const addTwo3 = () => ({username:'Arpita'})
+console.log(addTwo3);
