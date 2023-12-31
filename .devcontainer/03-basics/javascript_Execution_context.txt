@@ -27,3 +27,25 @@ let result2 = addNum(10, 2)
 3.Execution phase
     a.val1 <= 10
     b.val2 <= 5 
+    (
+        result1 = 15
+        result2 = is a function so the process repet again
+    )
+    c.addNum 
+
+        i.new variable  Environment 
+        ii.Execution thread 
+        (after return to global execution it get delete)
+             after this:- again 2 phases going to run 
+                memory phase
+                    val1 => undefined
+                    val2 => undefined
+                    total => undefined
+
+                 &
+                 
+                execution phase
+                    num1 => 10
+                    num2 => 5
+                    total => 15 (return to global Exection)
+
