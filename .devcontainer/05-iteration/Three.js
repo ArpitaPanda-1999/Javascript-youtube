@@ -17,7 +17,7 @@ for (const greet of greetings) {
     //console.log(`Each char is: ${greet}`);
 }
 
-//maps(not iteratable)
+//maps(not iteratable) === it returns automatically 
 const map = new Map()
 map.set('IN', "India")
 map.set('USA', "United state of america")
