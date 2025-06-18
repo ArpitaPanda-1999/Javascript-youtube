@@ -26,7 +26,6 @@ console.log(gameName.split(' '));
 
 //const newStringOne="      Arpita       "
 //console.log(newStringOne);
-
 //const newStringtwo=newStringOne.trim();
 //console.log(newStringtwo);
 
@@ -34,3 +33,5 @@ console.log(gameName.split(' '));
 //console.log(url.replace("%20","_"));
 
 //console.log(url.includes("Arpita"));
+
+//console.log(gameName.split(" "))
