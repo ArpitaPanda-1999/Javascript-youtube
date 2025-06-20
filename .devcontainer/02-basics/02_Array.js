@@ -5,7 +5,7 @@ const dcHeros = ["Superman", "Batman", "Flash"]
 //console.log(marvelHeros);
 //console.log(marvelHeros[3][1]);
 
-//const allHeros = marvelHeros.concat(dcHeros)
+//const allHeros = marvelHeros.concat(dcHeros)//contact returns new array , so u have to store it in a new array variable
 //console.log(allHeros);
 
 //const all_New_heros = [...marvelHeros, ...dcHeros]
@@ -18,7 +18,7 @@ const real_another_arr = another_arr.flat(Infinity)
 //console.log(Array.isArray("Arpita"));
 //console.log(Array.isArray(["Arpita", "Ankita", "Amisha"]));
 //console.log(Array.from("Arpita"));
-//console.log(Array.from({name:"Arpita"}));//interesting 
+//console.log(Array.from({name:"Arpita"}));//give you empty array
 
 let score1 = 100
 let score2 = 200
