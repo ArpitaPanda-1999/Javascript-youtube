@@ -24,7 +24,7 @@ function addTwoNumber(number1, number2){
     // return number1 + number2; // if u are returning .. then only u can store the execution in a new variable;
 }
 const result = addTwoNumber(3, "4")
-console.log("Result: ", result); // if u do "console.log" instade of "return" and then u want to print then it will give u "undefined" 
+// console.log("Result: ", result); // if u do "console.log" instade of "return" and then u want to print then it will give u "undefined" 
 
 
 
@@ -62,7 +62,7 @@ function calculateCartPrice1(val1, val2,...num2){
     return num2
 }
 //console.log(calculateCartPrice1(200, 300, 400, 500));
-
+//return value will print only
 
 
 
@@ -70,13 +70,12 @@ const user = {
     name: "arpita",
     price: 333
 }
-
-
-
 function handleObject(anyObj){
    // console.log(`username is ${anyObj.name} and price is ${anyObj.price}`);
 }
-//handleObject(user)
+handleObject(user);
+
+//we can directly pass object inside call back function
 handleObject({
     name: "Ankita",
     price: 488
@@ -87,6 +86,7 @@ handleObject({
 const myArray = [200, 300, 500, 700]
 
 function returnSecondArr(getArray){
-    // console.log(getArray[3]);
+    return getArray[3];
 }
-returnSecondArr(myArray)
+console.log(returnSecondArr(myArray));
+console.log(returnSecondArr([200, 300, 500, 700]));
