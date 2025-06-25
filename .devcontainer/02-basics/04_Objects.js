@@ -68,11 +68,16 @@ const user = [
 
 
 
+
+
+//Destructuring of Object
 const course = {
     coursename : "js in hindi",
     fee : "999",
     courseInstructor : "Arpita" 
 }
 
-const {courseInstructor:instructor} = course //object destructure
+const {courseInstructor:instructor} = course // ":Instructor" in this way u can rename this and using this value u can access their value  
 // console.log(instructor);
+
+
