@@ -81,3 +81,26 @@ const {courseInstructor:instructor} = course // ":Instructor" in this way u can 
 // console.log(instructor);
 
 
+//json data 
+
+//object form json
+// {
+//     "name": "Arpita",
+//     "course": "java",
+//     "price": "208"
+// }
+
+//Array form json 
+
+// [
+//     {
+//         "name": "Arpita",
+//         "course": "java",
+//         "price": "208"
+//     },
+//     {
+//         "name": "Arpita",
+//         "course": "java",
+//         "price": "208"
+//     },
+// ]
