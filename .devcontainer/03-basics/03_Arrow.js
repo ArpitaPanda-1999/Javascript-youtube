@@ -1,4 +1,4 @@
-const user = {
+   const user = {
     username: 'Arpita', //this function work on object only
     price: 999,
     

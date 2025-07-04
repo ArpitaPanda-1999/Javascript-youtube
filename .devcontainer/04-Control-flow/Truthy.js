@@ -14,7 +14,7 @@ if (userEmail1) {
 
 //falsy values
 
-//false, 0, -0, BigInt on, "", null, undefine, NaN
+//false, 0, -0, BigInt 0n, "", null, undefine, NaN
 
 //truthy values
 
